@@ -22,3 +22,27 @@ combine mcreate, mcommit and mpush commands into one command.
 ```bash
 mpr my_branch "this is the commit message"
 ```
+
+### delete a git branch
+deletes currently selected branch.
+```bash
+mdelete_branch
+```
+
+### view pretty log
+see the git log in pretty format. oneline for each commit
+```bash
+mlog
+```
+
+### show git branch
+show the git branch
+```bash
+git_branch
+```
+
+### see the details of above m commands
+What exactly does the above commands does.
+```bash
+mwhat mlog
+```
